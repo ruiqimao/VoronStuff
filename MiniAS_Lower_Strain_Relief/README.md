@@ -4,4 +4,4 @@ There is space between the X carriage and Sherpa Mini motor on the Mini After Sh
 
 This alternative strain relief makes use of that wire routing and allows the wires to come out lower.
 
-![Preview](MiniAS_Lower_Strain_Relief/Images/Preview.jpg)
+![Preview](Images/Preview.jpg)

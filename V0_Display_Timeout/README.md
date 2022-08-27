@@ -6,4 +6,7 @@ This configuration creates 3 macros:
 
 * `DISPLAY_ON`: Turns the display on.
 * `DISPLAY_OFF`: Turns the display off.
-* `DISPLAY_AUTO_OFF`: Automatically turns the display off after a given `TIMEOUT` parameter or a default number of seconds. If the display's click wheel is pressed before the display times out, the timeout is reset.
+* `DISPLAY_TIMEOUT`: Automatically turns the display off after a given `TIMEOUT` parameter or a default number of seconds. If the display's click wheel is pressed before the display times out, the timeout is reset.
+* `DISABLE_DISPLAY_TIMEOUT`: Disables the display timeout.
+
+These macros can be incorporated into `PRINT_START` and `PRINT_END` so that the display is always on during printing and automatically turns off afterwards.

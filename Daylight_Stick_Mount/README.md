@@ -1,6 +1,6 @@
 # Daylight Stick Mount
 
-This is a mount for [Daylight on a Stick](https://github.com/VoronDesign/Voron-Hardware/tree/master/Daylight), specifically for 250mm printers. It incorporates the baffle design from Vector3D's [Daybreak Neo](https://github.com/AdamV3D/V3D-Voron-Mods/tree/main/Daylight_on_a_Stick/Mounts/V2.4/V2) PCBs and creates a mount that covers the entire PCB.
+This is a mount for [Daylight on a Stick](https://github.com/VoronDesign/Voron-Hardware/tree/master/Daylight), specifically for 250mm printers. It incorporates the baffle design from Vector3D's [Daybreak](https://github.com/AdamV3D/V3D-Voron-Mods/tree/main/Daylight_on_a_Stick/Mounts/V2.4/V2) PCBs and creates a mount that covers the entire PCB.
 
 ![Image of mount](Images/Picture.jpg)
 

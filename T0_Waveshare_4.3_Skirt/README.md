@@ -28,7 +28,13 @@ Standard Voron print settings:
 
 ## Assembly
 
-Follow the same assembly instructions as the original skirt mod. Whe building the display mounts:
+Follow the same assembly instructions as the original skirt mod.
+
+### Feet
+
+Use your original V0 rubber feet. They attach to the printed feet parts using an M3x8 screw and M3 nut.
+
+### Display Mount
 
 1. Attach mounts to the bottom frame extrusion.
 2. Attach pulley covers to the mounts.

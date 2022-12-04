@@ -15,7 +15,9 @@ The changes in this skirt mod compared to the original mod are:
 
 * NEMA17 Z motors only
 * Secondary MCU may not fit if taped onto the PSU
-* Uses a Waveshare 4.3" Capacitive Touch Screen
+* Uses a Waveshare 4.3" DSI Capacitive Touch Screen
+  * [Waveshare Direct](https://www.waveshare.com/4.3inch-dsi-lcd.htm)
+  * [Amazon US](https://www.amazon.com/Compatible-Pi-4-3inch-Display-DSI/dp/B088JTD6JN)
 
 ## Print settings
 

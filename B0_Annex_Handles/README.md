@@ -24,6 +24,12 @@ A printed jig is included in the STLs to align the holes.
 
 Alternatively, a DXF is provided with holes in place.
 
+## Block thickness
+
+The thickness of the "block" determines the holding strength of the door by moving the FHCS screws closer or further from the magnets. If the block is too thin, then the holding power is weak, but if the block is too thick, then there is risk of creating a gap between the door and extrusions.
+
+By default, the block is 2.5mm thick, which should provide decent holding power while also not creating a gap. There is a parametric CAD supplied so that this value can be adjusted.
+
 ## Photo
 
 ![Photo of door](Images/Photo.jpg)

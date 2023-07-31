@@ -22,7 +22,7 @@ In addition to the PCB, the following connectors are needed:
 | Part | Quantity | Link |
 |:-:|:-:|:-:|
 | Molex Micro-Fit 3.0 430451600 | 1 | [DigiKey](https://www.digikey.com/en/products/detail/molex/0430451600/531424) |
-| Molex Micro-Fit 3.0 430450200 | 2 | [DigiKey](https://www.digikey.com/en/products/detail/molex/0430450200/252526) |
+| Molex Micro-Fit 3.0 430650200 | 2 | [DigiKey](https://www.digikey.com/en/products/detail/molex/0436500200/268989) |
 | JST B2B-XH-A | 4 | [DigiKey](https://www.digikey.com/en/products/detail/jst-sales-america-inc./B2B-XH-A(LF)(SN)/1651045) |
 | JST B3B-XH-A | 2 | [DigiKey](https://www.digikey.com/en/products/detail/jst-sales-america-inc./B3B-XH-A/1651046) |
 | JST B4B-XH-A | 1 | [DigiKey](https://www.digikey.com/en/products/detail/jst-sales-america-inc./B4B-XH-A(LF)(SN)/1651047) |

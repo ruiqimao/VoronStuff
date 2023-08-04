@@ -62,3 +62,11 @@ To use the distribution PCB, the following changes must be made:
 | Thermistor Chamber | Neopixel |
 | Aux 1 | Ground |
 | Aux 4 | 5V |
+
+## Beacon compatibility
+
+The two AUX pins can be used for Beacon D- and D+ lines with some caveats:
+* It is an untested use case
+* There will be no more AUX pins left for endstop or filament sensors
+* The traces are routed over ground plane splits
+* 5V must be supplied from VBUS, meaning any fans running off of 5V will be powered by VBUS

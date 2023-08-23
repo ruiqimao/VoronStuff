@@ -55,13 +55,28 @@ The PCB and strain relief are designed with only the [Sherpa Mini](https://githu
 
 The PCB is compatible with the Annex Engineering [wiring harness](https://store.annex.engineering/products/carabiner-wiring-harness) and [distribution PCB](https://github.com/Annex-Engineering/Annex_Engineering_PCBs/tree/master/carabiner-series-toolboard/carabiner-distributor).
 
-To use the distribution PCB, the following changes must be made:
+Wire the distrbution PCB as labeled, with the following changes:
 
-| Distribution PCB | Xol PCB |
+| Distribution PCB | Controller |
 |:-:|:-:|
 | Thermistor Chamber | Neopixel |
 | Aux 1 | Ground |
 | Aux 4 | 5V |
+
+### Wiring harness compatibility
+
+The 1200mm wiring harness may not be long enough for some printers. The following have been tested:
+
+| Printer | Compatible |
+|:-:|:-:|
+| Trident 250mm | ? (Likely) |
+| Trident 300mm | ? (Likely) |
+| Trident 350mm | ? (Likely) |
+| V2.4 250mm | Yes |
+| V2.4 300mm | ? (Likely) |
+| V2.4 350mm | ? (Unlikely) |
+
+An alternative to the Annex harness is to purchase and repin a 14+2 Stealthburner wiring harness (e.g. [14-pin](https://www.fabreeko.com/products/ldo-v2-4-or-trident-ptfe-toolhead-cable-1-9m-350mm-sized-build?variant=43114275537151) + [2-pin](https://kb-3d.com/store/printer-specific-harnesses/474-linneo-led-extension-harness-voron-stealth-burner-1642910819052.html + [2x Molex Micro-Fit 3.0 0430251600](https://www.digikey.com/en/products/detail/molex/0430251600/531406?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Supplier_Focus%20Supplier&utm_term=&utm_content=&gclid=EAIaIQobChMIsoGBzZrzgAMVJzmtBh1heQdKEAQYASABEgKG5PD_BwE))
 
 ## Beacon compatibility
 

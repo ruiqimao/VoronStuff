@@ -67,18 +67,21 @@ Wire the distrbution PCB as labeled, with the following changes:
 
 ### Wiring harness compatibility
 
-The 1200mm wiring harness may not be long enough for some printers. The following have been tested:
+The carabiner harness is 1200mm, which may not be long enough for some printers.
 
-| Printer | Compatible |
+| Printer | Compatible with Annex Harness |
 |:-:|:-:|
 | Trident 250mm | Yes |
 | Trident 300mm | Yes |
-| Trident 350mm | ? (Likely) |
+| Trident 350mm | Likely (untested) |
 | V2.4 250mm | Yes |
 | V2.4 300mm | Yes with horizontal Z chain |
-| V2.4 350mm | ? (Unlikely) |
+| V2.4 350mm | Unlikely (untested) |
 
-An alternative to the Annex harness is to purchase and repin a 14+2 Stealthburner wiring harness (e.g. [14-pin](https://www.fabreeko.com/products/ldo-v2-4-or-trident-ptfe-toolhead-cable-1-9m-350mm-sized-build?variant=43114275537151) + [2-pin](https://kb-3d.com/store/printer-specific-harnesses/474-linneo-led-extension-harness-voron-stealth-burner-1642910819052.html) + [2x Molex Micro-Fit 3.0 0430251600](https://www.digikey.com/en/products/detail/molex/0430251600/531406?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Supplier_Focus%20Supplier&utm_term=&utm_content=&gclid=EAIaIQobChMIsoGBzZrzgAMVJzmtBh1heQdKEAQYASABEgKG5PD_BwE))
+Alternatives to the Annex harness are:
+
+* 2.2 meter alternative from [Raven Mech](https://www.ravenmech.com/products/carabiner-pinned-cable-harness)
+* Repin a 14+2 Stealthburner wiring harness (e.g. [14-pin](https://www.fabreeko.com/products/ldo-v2-4-or-trident-ptfe-toolhead-cable-1-9m-350mm-sized-build?variant=43114275537151) + [2-pin](https://kb-3d.com/store/printer-specific-harnesses/474-linneo-led-extension-harness-voron-stealth-burner-1642910819052.html) + [2x Molex Micro-Fit 3.0 0430251600](https://www.digikey.com/en/products/detail/molex/0430251600/531406?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Supplier_Focus%20Supplier&utm_term=&utm_content=&gclid=EAIaIQobChMIsoGBzZrzgAMVJzmtBh1heQdKEAQYASABEgKG5PD_BwE))
 
 ## Beacon compatibility
 
@@ -87,3 +90,11 @@ The two AUX pins can be used for Beacon D- and D+ lines with some caveats:
 * There will be no more AUX pins left for endstop or filament sensors
 * The traces are routed over ground plane splits
 * 5V must be supplied from VBUS, meaning any fans running off of 5V will be powered by VBUS
+* Only compatible with Annex harness, which has a twisted wire pair for D- and D+
+
+## Purchasing
+
+Xol PCB can currently be purchased from:
+
+* [X.R. Bunker](https://xrbunker.works/products/xol-toolhead-board-ruiqimao)
+* [Fabreeko](https://www.fabreeko.com/products/xol-toolhead-board-by-ruiqimao)

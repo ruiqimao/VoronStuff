@@ -35,7 +35,7 @@ From the point of view looking directly at the **wiring harness connector**:
 
 | Pin | Usage | Pin | Usage |
 |:-:|:-:|:-:|:-:|
-| 1 | Neopixel | 9 | Hotend Voltage |
+| 1 | Neopixel | 9 | Hotend voltage |
 | 2 | Part cooling fan ground | 10 | Hotend ground |
 | 3 | Hotend fan ground | 11 | Alt voltage |
 | 4 | Thermistor ground | 12 | Thermistor |
@@ -98,3 +98,4 @@ Xol PCB can currently be purchased from:
 
 * [X.R. Bunker](https://xrbunker.works/products/xol-toolhead-board-ruiqimao)
 * [Fabreeko](https://www.fabreeko.com/products/xol-toolhead-board-by-ruiqimao)
+* [West3D](https://west3d.com/products/xol-toolhead-pcb)

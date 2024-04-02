@@ -51,11 +51,19 @@ There are two sets of solder jumpers, one for each type of fan, that should be b
 ## Extruder compatibility
 The PCB and strain relief are designed with only the [Sherpa Mini](https://github.com/Annex-Engineering/Sherpa_Mini-Extruder) in mind. **Usage with other extruders may require the motor connector to be swapped to the back side.**
 
-## Carabiner compatibility
+## Distribution board compatibility
+The PCB is compatible with the [Xol distribution board](https://store.annex.engineering/collections/pcbs/products/carabiner-distribution-board-for-xol-toolhead) from Annex Engineering.
 
-The PCB is compatible with the Annex Engineering [wiring harness](https://store.annex.engineering/products/carabiner-wiring-harness) and [distribution PCB](https://github.com/Annex-Engineering/Annex_Engineering_PCBs/tree/master/carabiner-series-toolboard/carabiner-distributor).
+Alternatively, a second Xol PCB can be used as a distribution board as well.
 
-Wire the distrbution PCB as labeled, with the following changes:
+### [LEGACY] Carabiner distribution board compatibility
+
+> [!WARNING]
+> Ignore this section unless you have the **Carabiner (not Xol) distribution board**.
+
+Before the Xol distribution PCB was created, the recommended distribution board was the [Carabiner distribution board](https://github.com/Annex-Engineering/Annex_Engineering_PCBs/tree/master/carabiner-series-toolboard/carabiner-distributor).
+
+If using the Carabiner distribution board, wire it as labeled, with the following changes:
 
 | Distribution PCB | Xol PCB |
 |:-:|:-:|
@@ -65,11 +73,11 @@ Wire the distrbution PCB as labeled, with the following changes:
 | A3 | AUX2 |
 | A4 | 5V |
 
-### Wiring harness compatibility
+## Wiring harness compatibility
 
-The carabiner harness is 1200mm, which may not be long enough for some printers.
+Xol PCB is designed to be compatible with the [Carabiner wiring harness](https://store.annex.engineering/products/carabiner-wiring-harness) from Annex Engineering. The long version is 120mm, which may not be long enough for some printers.
 
-| Printer | Compatible with Annex Harness |
+| Printer | Compatible with Carabiner Harness |
 |:-:|:-:|
 | Trident 250mm | Yes |
 | Trident 300mm | Yes |
@@ -78,9 +86,10 @@ The carabiner harness is 1200mm, which may not be long enough for some printers.
 | V2.4 300mm | Yes with horizontal Z chain |
 | V2.4 350mm | Unlikely (untested) |
 
-Alternatives to the Annex harness are:
+Alternatives to the premade Carabiner harness are:
 
-* 2.2 meter alternative from [Raven Mech](https://www.ravenmech.com/products/carabiner-pinned-cable-harness)
+* **(Recommended)** Custom length Carabiner harness from [Annex Engineering](https://store.annex.engineering/collections/pcbs/products/carabiner-wiring-harness-custom-length-kit)
+* **(Recommended)** 2.2 meter alternative from [Raven Mech](https://www.ravenmech.com/products/carabiner-pinned-cable-harness)
 * Repin a 14+2 Stealthburner wiring harness (e.g. [14-pin](https://www.fabreeko.com/products/ldo-v2-4-or-trident-ptfe-toolhead-cable-1-9m-350mm-sized-build?variant=43114275537151) + [2-pin](https://kb-3d.com/store/printer-specific-harnesses/474-linneo-led-extension-harness-voron-stealth-burner-1642910819052.html) + [2x Molex Micro-Fit 3.0 0430251600](https://www.digikey.com/en/products/detail/molex/0430251600/531406?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Supplier_Focus%20Supplier&utm_term=&utm_content=&gclid=EAIaIQobChMIsoGBzZrzgAMVJzmtBh1heQdKEAQYASABEgKG5PD_BwE))
 
 ## Beacon compatibility
@@ -96,6 +105,8 @@ The two AUX pins can be used for Beacon D- and D+ lines with some caveats:
 
 Xol PCB can currently be purchased from:
 
-* [X.R. Bunker](https://xrbunker.works/products/xol-toolhead-board-ruiqimao)
-* [Fabreeko](https://www.fabreeko.com/products/xol-toolhead-board-by-ruiqimao)
-* [West3D](https://west3d.com/products/xol-toolhead-pcb)
+* :us: [X.R. Bunker](https://xrbunker.works/products/xol-toolhead-board-ruiqimao)
+* :us: [Fabreeko](https://www.fabreeko.com/products/xol-toolhead-board-by-ruiqimao)
+* :us: [West3D](https://west3d.com/products/xol-toolhead-pcb)
+* :us: [Annex Engineering](https://store.annex.engineering/products/xol-toolhead-pcb)
+* :eu: [Lab4450](https://lab4450.com/product/xol-toolhead-board)

@@ -75,7 +75,7 @@ If using the Carabiner distribution board, wire it as labeled, with the followin
 
 ## Wiring harness compatibility
 
-Xol PCB is designed to be compatible with the [Carabiner wiring harness](https://store.annex.engineering/products/carabiner-wiring-harness) from Annex Engineering. The long version is 120mm, which may not be long enough for some printers.
+Xol PCB is designed to be compatible with the [Carabiner wiring harness](https://store.annex.engineering/products/carabiner-wiring-harness) from Annex Engineering. The long version is 1200mm, which may not be long enough for some printers.
 
 | Printer | Compatible with Carabiner Harness |
 |:-:|:-:|
@@ -86,7 +86,7 @@ Xol PCB is designed to be compatible with the [Carabiner wiring harness](https:/
 | V2.4 300mm | Yes with horizontal Z chain |
 | V2.4 350mm | Unlikely (untested) |
 
-Alternatives to the premade Carabiner harness are:
+**Alternatives** to the premade Carabiner harness are:
 
 * **(Recommended)** Custom length Carabiner harness from [Annex Engineering](https://store.annex.engineering/collections/pcbs/products/carabiner-wiring-harness-custom-length-kit)
 * **(Recommended)** 2.2 meter alternative from [Raven Mech](https://www.ravenmech.com/products/carabiner-pinned-cable-harness)

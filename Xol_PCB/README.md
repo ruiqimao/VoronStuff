@@ -51,31 +51,24 @@ There are two sets of solder jumpers, one for each type of fan, that should be b
 ## Extruder compatibility
 The PCB and strain relief are designed with only the [Sherpa Mini](https://github.com/Annex-Engineering/Sherpa_Mini-Extruder) in mind. **Usage with other extruders may require the motor connector to be swapped to the back side.**
 
-## Distribution board compatibility
-The PCB is compatible with the [Xol distribution board](https://store.annex.engineering/collections/pcbs/products/carabiner-distribution-board-for-xol-toolhead) from Annex Engineering.
+## Distribution board
+Xol PCB is compatible with the [Xol distribution board](https://store.annex.engineering/collections/pcbs/products/carabiner-distribution-board-for-xol-toolhead) from Annex Engineering.
 
-Alternatively, a second Xol PCB can be used as a distribution board as well.
+### Alternatives
+* A second Xol PCB can be used as a distribution board.
+* The [Carabiner distribution board](https://github.com/Annex-Engineering/Annex_Engineering_PCBs/tree/master/carabiner-series-toolboard/carabiner-distributor) can be used as labeled with the following changes:
 
-### [LEGACY] Carabiner distribution board compatibility
+  | Distribution PCB | Xol PCB |
+  |:-:|:-:|
+  | ThChamb | RGB |
+  | A1| GND |
+  | A2 | AUX1 |
+  | A3 | AUX2 |
+  | A4 | 5V |
 
-> [!WARNING]
-> Ignore this section unless you have the **Carabiner (not Xol) distribution board**.
+## Wiring harness
 
-Before the Xol distribution PCB was created, the recommended distribution board was the [Carabiner distribution board](https://github.com/Annex-Engineering/Annex_Engineering_PCBs/tree/master/carabiner-series-toolboard/carabiner-distributor).
-
-If using the Carabiner distribution board, wire it as labeled, with the following changes:
-
-| Distribution PCB | Xol PCB |
-|:-:|:-:|
-| ThChamb | RGB |
-| A1| GND |
-| A2 | AUX1 |
-| A3 | AUX2 |
-| A4 | 5V |
-
-## Wiring harness compatibility
-
-Xol PCB is designed to be compatible with the [Carabiner wiring harness](https://store.annex.engineering/products/carabiner-wiring-harness) from Annex Engineering. The long version is 1200mm, which may not be long enough for some printers.
+Xol PCB is compatible with the [Carabiner wiring harness](https://store.annex.engineering/products/carabiner-wiring-harness) from Annex Engineering. The long version is 1200mm, which may not sufficient for some printers.
 
 | Printer | Compatible with Carabiner Harness |
 |:-:|:-:|
@@ -86,7 +79,7 @@ Xol PCB is designed to be compatible with the [Carabiner wiring harness](https:/
 | V2.4 300mm | Yes with horizontal Z chain |
 | V2.4 350mm | Unlikely (untested) |
 
-**Alternatives** to the premade Carabiner harness are:
+### Alternatives
 
 * **(Recommended)** Custom length Carabiner harness from [Annex Engineering](https://store.annex.engineering/collections/pcbs/products/carabiner-wiring-harness-custom-length-kit)
 * **(Recommended)** 2.2 meter alternative from [Raven Mech](https://www.ravenmech.com/products/carabiner-pinned-cable-harness)

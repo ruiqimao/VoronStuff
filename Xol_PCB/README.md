@@ -102,4 +102,5 @@ Xol PCB can currently be purchased from:
 * :us: [Fabreeko](https://www.fabreeko.com/products/xol-toolhead-board-by-ruiqimao)
 * :us: [West3D](https://west3d.com/products/xol-toolhead-pcb)
 * :us: [Annex Engineering](https://store.annex.engineering/products/xol-toolhead-pcb)
+* :uk: [JB3D](https://jb3d.uk/product/xol-toolhead-pcb-by-ruiqimao)
 * :eu: [Lab4450](https://lab4450.com/product/xol-toolhead-board)

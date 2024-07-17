@@ -52,7 +52,7 @@ There are two sets of solder jumpers, one for each type of fan, that should be b
 The PCB and strain relief are designed with only the [Sherpa Mini](https://github.com/Annex-Engineering/Sherpa_Mini-Extruder) in mind. **Usage with other extruders may require the motor connector to be swapped to the back side.**
 
 ## Distribution board
-Xol PCB is compatible with the [Xol distribution board](https://store.annex.engineering/collections/pcbs/products/carabiner-distribution-board-for-xol-toolhead) from Annex Engineering.
+Xol PCB is compatible with the [Xol distribution board](https://store.annex.engineering/collections/pcbs/products/carabiner-distribution-board-for-xol-toolhead) from Annex Engineering. See additional documentation [here](https://github.com/Annex-Engineering/Carabiner-Docs/tree/main/carabiner-distributor_xol).
 
 ### Alternatives
 * A second Xol PCB can be used as a distribution board.
@@ -65,6 +65,8 @@ Xol PCB is compatible with the [Xol distribution board](https://store.annex.engi
   | A2 | AUX1 |
   | A3 | AUX2 |
   | A4 | 5V |
+
+  Additional documentation [here](https://github.com/Annex-Engineering/Carabiner-Docs/tree/main/carabiner-distributor).
 
 ## Wiring harness
 

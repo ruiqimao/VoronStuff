@@ -56,7 +56,7 @@ Xol PCB is compatible with the [Xol distribution board](https://store.annex.engi
 
 ### Alternatives
 * A second Xol PCB can be used as a distribution board.
-* The [Carabiner distribution board](https://github.com/Annex-Engineering/Annex_Engineering_PCBs/tree/master/carabiner-series-toolboard/carabiner-distributor) can be used as labeled with the following changes:
+* The [Carabiner distribution board](https://github.com/Annex-Engineering/Carabiner-Docs/tree/main/carabiner-distributor) can be used as labeled with the following changes:
 
   | Distribution PCB | Xol PCB |
   |:-:|:-:|
